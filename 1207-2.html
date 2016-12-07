@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .container{
+            font-size: 0;
+        }
+        .box{
+            display: inline-block;
+            vertical-align: middle;
+            width: 300px;
+            height: 500px;
+            background-color: burlywood;
+            font-size: 0;
+        }
+        .box::before{
+            content: "";
+            display: inline-block;
+            vertical-align: middle;
+            height: 100%;
+        }
+        .box .content{
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+           <div class="content">
+            <h1>rjgie</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit, quae ducimus dolorum quam nam sapiente, rerum quas itaque earum magnam! Necessitatibus saepe laborum, nemo soluta deserunt sit dolorum aliquam?
+            </p>
+            </div>
+        </div>
+        <div class="box">
+           <div class="content">
+            <h1>rjgie</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit, quae ducimus dolorum quam nam sapiente, rerum quas itaque earum magnam! Necessitatibus saepe laborum, nemo soluta deserunt sit dolorum aliquam?
+            </p>
+            </div>
+        </div>
+        <div class="box">
+           <div class="content">
+            <h1>rjgie</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam velit, quae ducimus dolorum quam nam sapiente, rerum quas itaque earum magnam! Necessitatibus saepe laborum, nemo soluta deserunt sit dolorum aliquam?
+            </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
